@@ -2,7 +2,7 @@
 
 This Github repository aims to test the NER module of the spaCy framework on tweets about Tesla Company.
 
-- The first notebook `1_reformat_data.ipynb` reformat the data of a dataset with ground truth enetities in order to test the performances of the spaCy model.
+- The first notebook `1_reformat_data.ipynb` reformat the data of a dataset with ground truth entities in order to test the performances of the spaCy model.
 - The second notebook `2_test_spacy_transformer_ner.ipynb` test the performance of the spaCy model on the ground truth data.
 - The third notebook `3_the_guardian_api_pulling.ipynb` allows to pull data from the guardian API on a given topic. (In our case Tesla)
 - The last notebook `4_apply_spacy_ner_to_articles.ipynb` applies spaCy NER model on the downloaded data and provide some analysis of the text dataset.
